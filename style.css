@@ -173,13 +173,13 @@ h6{
 
 .description{
   font-family: 'Titillium Web', sans-serif;
-  font-size: 100%;
+  font-size: 120%;
   color: #191919;
   padding-left: 0rem;
 }
 
 .fa-users{
-  color: #d2511e;
+  color: #ff2600;
 }
 
 .fa-dice-d20{
@@ -187,8 +187,7 @@ h6{
   ;
 }
 .fa-laugh-wink{
-  color: #d2511e;
-  ;
+  color: #ff2600;
 }
 .fa-laugh-wink, .fa-users, .fa-dice-d20{
   font-size: 4em;
