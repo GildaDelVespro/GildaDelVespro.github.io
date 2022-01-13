@@ -120,20 +120,22 @@ h6{
   border: 1px solid gold;
 }
 
+
+
 .container-fluid{
-  
   padding: 0;
-  
 }
+
+
 .jumbotron{
   border-radius: 0;
-  background-color: rgb(121, 110, 110);
+  background-color: rgb(92, 88, 88);
   margin-bottom: 0;
 }
 .jumbo{
   font-family: 'Titillium Web',sans-serif;
   font-size: 150%;
-  color: #191919;
+  color: #FF8C00;
   text-align: center;
 }
 
@@ -163,6 +165,10 @@ h6{
   font-family: 'Russo One',sans-serif;
   font-size: 150%;
   color: #191919;
+}
+
+img{
+  align-items: center;
 }
 
 .values{
@@ -251,6 +257,8 @@ hr.light-100 {
   margin-bottom: 1rem
 }
 
+
+
 /*---Media Queries --*/
 @media (max-width: 1280px) {
 
@@ -270,7 +278,7 @@ hr.light-100 {
     font-size: 4em;
     padding: 2em;
   }
-
+  
   }
 @media (max-width: 1024px) {
 
@@ -344,7 +352,9 @@ hr.light-100 {
   }
 
 img{
-  size-adjust: auto;
+  height: auto;
+  width: auto;
+  align-items: flex-start;
 }
 
   .logo_size{
@@ -356,10 +366,10 @@ img{
 .btn{
   font-family: 'Russo One', sans-serif;
   font-size: 100%;
-  margin-left: 10%;
   margin-right: 10%;
+  margin-left: 10%;
 }
-  
+
 }
 
 
