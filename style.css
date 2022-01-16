@@ -53,6 +53,9 @@ hr{
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
+  left: 0%;
+  bottom: 0%;
+  right: 1.5%;
 }
 .carousel-caption h1{
   font-size: 4.5rem;
@@ -120,8 +123,6 @@ h6{
   border: 1px solid gold;
 }
 
-
-
 .container-fluid{
   padding: 0;
 }
@@ -170,6 +171,14 @@ h6{
 img{
   align-items: center;
 }
+
+.card-body {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  height: 20rem;
+}
+
 
 .values{
   font-family: 'Russo One', sans-serif;
@@ -311,6 +320,23 @@ hr.light-100 {
   font-size: 2.5em;
   padding: 1.2rem;
 }
+
+.card-body {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  padding: 0.8rem;
+  height: 26.5rem;
+  font-size: 1rem;
+}
+
+.description{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 120%;
+  color: #191919;
+  padding-left: 0rem;
+  height: 18rem;
+}
+
 }
 
 @media (max-width: 768px){
@@ -335,6 +361,23 @@ hr.light-100 {
   font-size: 2em;
   padding: .7rem;
 }
+
+.card-body {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  padding: 0.2rem;
+  height: 26.5rem;
+  font-size: 0.9rem;
+}
+
+.description{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 120%;
+  color: #191919;
+  padding-left: 0rem;
+  height: 20.5rem;
+}
+
 }
 
 @media (max-width: 480px) {
@@ -368,6 +411,26 @@ img{
   font-size: 100%;
   margin-right: 10%;
   margin-left: 10%;
+}
+
+.btn-carousel{
+  left: 0%;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  padding: 0.2rem;
+  height: 14rem;
+  font-size: 0.9rem;
+}
+
+.description{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 120%;
+  color: #191919;
+  padding-left: 0rem;
+  height: 8rem;
 }
 
 }
