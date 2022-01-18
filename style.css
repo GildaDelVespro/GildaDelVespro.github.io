@@ -427,10 +427,15 @@ img{
 
 .description{
   font-family: 'Titillium Web', sans-serif;
-  font-size: 120%;
+  font-size: 100%;
   color: #191919;
   padding-left: 0rem;
   height: 8rem;
+  margin-bottom: 10px;
+}
+
+.description-box{
+  height: auto;
 }
 
 }
